@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model name="" userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="1810" systemVersion="12C54" minimumToolsVersion="Automatic" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="Burger" representedClassName="Burger" syncable="YES">
+        <attribute name="isFavorite" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="price" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <relationship name="toppingList" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Topping" inverseName="burgerList" inverseEntity="Topping" syncable="YES"/>
+    </entity>
+    <entity name="Topping" representedClassName="Topping" syncable="YES">
+        <attribute name="isFavorite" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="burgerList" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Burger" inverseName="toppingList" inverseEntity="Burger" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Burger" positionX="160" positionY="192" width="128" height="105"/>
+        <element name="Topping" positionX="160" positionY="192" width="128" height="90"/>
+    </elements>
+</model>

@@ -1,0 +1,435 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0104DBA6161E3FC1007AFB97 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0104DBA5161E3FC1007AFB97 /* Icon@2x.png */; };
+		0104DBA9161E3FE4007AFB97 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 0104DBA8161E3FE4007AFB97 /* Icon.png */; };
+		01A01E6D161A44EB00563EE3 /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 01A01E6C161A44EB00563EE3 /* MapViewController.m */; };
+		01A01E71161A46D000563EE3 /* MapViewAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 01A01E70161A46D000563EE3 /* MapViewAnnotation.m */; };
+		01A01E73161A494C00563EE3 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01A01E72161A494B00563EE3 /* MapKit.framework */; };
+		01A01E75161A496200563EE3 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01A01E74161A496200563EE3 /* CoreLocation.framework */; };
+		01A498C51615224B00950E4C /* MenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 01A498C41615224B00950E4C /* MenuViewController.m */; };
+		01A498C91615270300950E4C /* ToppingTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 01A498C81615270300950E4C /* ToppingTableViewController.m */; };
+		01A5D16B16190A6700F31BB5 /* CommonTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 01A5D16A16190A6700F31BB5 /* CommonTableViewController.m */; };
+		01A6A56E1616867C00131C28 /* BF2Model.m in Sources */ = {isa = PBXBuildFile; fileRef = 01A6A56D1616867C00131C28 /* BF2Model.m */; };
+		01A7D57E1613A66000739AEB /* Burger.m in Sources */ = {isa = PBXBuildFile; fileRef = 01A7D57D1613A66000739AEB /* Burger.m */; };
+		01A7D5811613A66000739AEB /* Topping.m in Sources */ = {isa = PBXBuildFile; fileRef = 01A7D5801613A66000739AEB /* Topping.m */; };
+		01AC4B1016137D0000261834 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01AC4B0F16137D0000261834 /* UIKit.framework */; };
+		01AC4B1216137D0000261834 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01AC4B1116137D0000261834 /* Foundation.framework */; };
+		01AC4B1416137D0000261834 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01AC4B1316137D0000261834 /* CoreGraphics.framework */; };
+		01AC4B1616137D0000261834 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01AC4B1516137D0000261834 /* CoreData.framework */; };
+		01AC4B1C16137D0000261834 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 01AC4B1A16137D0000261834 /* InfoPlist.strings */; };
+		01AC4B1E16137D0000261834 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 01AC4B1D16137D0000261834 /* main.m */; };
+		01AC4B2216137D0000261834 /* BF2AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 01AC4B2116137D0000261834 /* BF2AppDelegate.m */; };
+		01AC4B2416137D0000261834 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 01AC4B2316137D0000261834 /* Default.png */; };
+		01AC4B2616137D0000261834 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 01AC4B2516137D0000261834 /* Default@2x.png */; };
+		01AC4B2816137D0000261834 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 01AC4B2716137D0000261834 /* Default-568h@2x.png */; };
+		01AC4B2B16137D0000261834 /* BurgerFinder2.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 01AC4B2916137D0000261834 /* BurgerFinder2.xcdatamodeld */; };
+		01AC4B3216137D2F00261834 /* iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01AC4B3116137D2F00261834 /* iPhone.storyboard */; };
+		01AC4B3516137EBF00261834 /* BurgerTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 01AC4B3416137EBF00261834 /* BurgerTableViewController.m */; };
+		01AC4B381613819800261834 /* BF2DatabaseUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 01AC4B371613819800261834 /* BF2DatabaseUtilities.m */; };
+		01AC4B531613840F00261834 /* Burger+Create.m in Sources */ = {isa = PBXBuildFile; fileRef = 01AC4B521613840F00261834 /* Burger+Create.m */; };
+		01AC4B561613842700261834 /* Topping+Create.m in Sources */ = {isa = PBXBuildFile; fileRef = 01AC4B551613842700261834 /* Topping+Create.m */; };
+		01E5C603161A5B6C009370E2 /* menu_modified.txt in Resources */ = {isa = PBXBuildFile; fileRef = 01E5C602161A5B6C009370E2 /* menu_modified.txt */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0104DBA5161E3FC1007AFB97 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
+		0104DBA8161E3FE4007AFB97 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		01A01E6B161A44EB00563EE3 /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
+		01A01E6C161A44EB00563EE3 /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
+		01A01E6F161A46D000563EE3 /* MapViewAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapViewAnnotation.h; sourceTree = "<group>"; };
+		01A01E70161A46D000563EE3 /* MapViewAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapViewAnnotation.m; sourceTree = "<group>"; };
+		01A01E72161A494B00563EE3 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		01A01E74161A496200563EE3 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		01A498C31615224B00950E4C /* MenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuViewController.h; sourceTree = "<group>"; };
+		01A498C41615224B00950E4C /* MenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuViewController.m; sourceTree = "<group>"; };
+		01A498C71615270300950E4C /* ToppingTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ToppingTableViewController.h; sourceTree = "<group>"; };
+		01A498C81615270300950E4C /* ToppingTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ToppingTableViewController.m; sourceTree = "<group>"; };
+		01A5D16916190A6700F31BB5 /* CommonTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonTableViewController.h; sourceTree = "<group>"; };
+		01A5D16A16190A6700F31BB5 /* CommonTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommonTableViewController.m; sourceTree = "<group>"; };
+		01A6A56C1616867C00131C28 /* BF2Model.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BF2Model.h; sourceTree = "<group>"; };
+		01A6A56D1616867C00131C28 /* BF2Model.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BF2Model.m; sourceTree = "<group>"; };
+		01A7D57C1613A66000739AEB /* Burger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Burger.h; sourceTree = "<group>"; };
+		01A7D57D1613A66000739AEB /* Burger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Burger.m; sourceTree = "<group>"; };
+		01A7D57F1613A66000739AEB /* Topping.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Topping.h; sourceTree = "<group>"; };
+		01A7D5801613A66000739AEB /* Topping.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Topping.m; sourceTree = "<group>"; };
+		01AC4B0B16137D0000261834 /* BurgerFinder2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BurgerFinder2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		01AC4B0F16137D0000261834 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		01AC4B1116137D0000261834 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		01AC4B1316137D0000261834 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		01AC4B1516137D0000261834 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		01AC4B1916137D0000261834 /* BurgerFinder2-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BurgerFinder2-Info.plist"; sourceTree = "<group>"; };
+		01AC4B1B16137D0000261834 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		01AC4B1D16137D0000261834 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		01AC4B1F16137D0000261834 /* BurgerFinder2-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BurgerFinder2-Prefix.pch"; sourceTree = "<group>"; };
+		01AC4B2016137D0000261834 /* BF2AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BF2AppDelegate.h; sourceTree = "<group>"; };
+		01AC4B2116137D0000261834 /* BF2AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BF2AppDelegate.m; sourceTree = "<group>"; };
+		01AC4B2316137D0000261834 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		01AC4B2516137D0000261834 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		01AC4B2716137D0000261834 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		01AC4B2A16137D0000261834 /* BurgerFinder2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BurgerFinder2.xcdatamodel; sourceTree = "<group>"; };
+		01AC4B3116137D2F00261834 /* iPhone.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = iPhone.storyboard; sourceTree = "<group>"; };
+		01AC4B3316137EBF00261834 /* BurgerTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BurgerTableViewController.h; sourceTree = "<group>"; };
+		01AC4B3416137EBF00261834 /* BurgerTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BurgerTableViewController.m; sourceTree = "<group>"; };
+		01AC4B361613819800261834 /* BF2DatabaseUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BF2DatabaseUtilities.h; sourceTree = "<group>"; };
+		01AC4B371613819800261834 /* BF2DatabaseUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BF2DatabaseUtilities.m; sourceTree = "<group>"; };
+		01AC4B511613840F00261834 /* Burger+Create.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Burger+Create.h"; sourceTree = "<group>"; };
+		01AC4B521613840F00261834 /* Burger+Create.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Burger+Create.m"; sourceTree = "<group>"; };
+		01AC4B541613842700261834 /* Topping+Create.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Topping+Create.h"; sourceTree = "<group>"; };
+		01AC4B551613842700261834 /* Topping+Create.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Topping+Create.m"; sourceTree = "<group>"; };
+		01E5C602161A5B6C009370E2 /* menu_modified.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = menu_modified.txt; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		01AC4B0816137D0000261834 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01A01E75161A496200563EE3 /* CoreLocation.framework in Frameworks */,
+				01A01E73161A494C00563EE3 /* MapKit.framework in Frameworks */,
+				01AC4B1016137D0000261834 /* UIKit.framework in Frameworks */,
+				01AC4B1216137D0000261834 /* Foundation.framework in Frameworks */,
+				01AC4B1416137D0000261834 /* CoreGraphics.framework in Frameworks */,
+				01AC4B1616137D0000261834 /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		01AC4B0016137CFF00261834 = {
+			isa = PBXGroup;
+			children = (
+				0104DBA8161E3FE4007AFB97 /* Icon.png */,
+				0104DBA5161E3FC1007AFB97 /* Icon@2x.png */,
+				01A01E74161A496200563EE3 /* CoreLocation.framework */,
+				01A01E72161A494B00563EE3 /* MapKit.framework */,
+				01AC4B1716137D0000261834 /* BurgerFinder2 */,
+				01AC4B0E16137D0000261834 /* Frameworks */,
+				01AC4B0C16137D0000261834 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		01AC4B0C16137D0000261834 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				01AC4B0B16137D0000261834 /* BurgerFinder2.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		01AC4B0E16137D0000261834 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				01AC4B0F16137D0000261834 /* UIKit.framework */,
+				01AC4B1116137D0000261834 /* Foundation.framework */,
+				01AC4B1316137D0000261834 /* CoreGraphics.framework */,
+				01AC4B1516137D0000261834 /* CoreData.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		01AC4B1716137D0000261834 /* BurgerFinder2 */ = {
+			isa = PBXGroup;
+			children = (
+				01AC4B3116137D2F00261834 /* iPhone.storyboard */,
+				01E5C602161A5B6C009370E2 /* menu_modified.txt */,
+				01A5D16916190A6700F31BB5 /* CommonTableViewController.h */,
+				01A5D16A16190A6700F31BB5 /* CommonTableViewController.m */,
+				01A498C71615270300950E4C /* ToppingTableViewController.h */,
+				01A498C81615270300950E4C /* ToppingTableViewController.m */,
+				01AC4B3316137EBF00261834 /* BurgerTableViewController.h */,
+				01AC4B3416137EBF00261834 /* BurgerTableViewController.m */,
+				01A6A56C1616867C00131C28 /* BF2Model.h */,
+				01A6A56D1616867C00131C28 /* BF2Model.m */,
+				01A7D57F1613A66000739AEB /* Topping.h */,
+				01A7D5801613A66000739AEB /* Topping.m */,
+				01A7D57C1613A66000739AEB /* Burger.h */,
+				01A7D57D1613A66000739AEB /* Burger.m */,
+				01AC4B541613842700261834 /* Topping+Create.h */,
+				01AC4B551613842700261834 /* Topping+Create.m */,
+				01AC4B511613840F00261834 /* Burger+Create.h */,
+				01AC4B521613840F00261834 /* Burger+Create.m */,
+				01AC4B361613819800261834 /* BF2DatabaseUtilities.h */,
+				01AC4B371613819800261834 /* BF2DatabaseUtilities.m */,
+				01A498C31615224B00950E4C /* MenuViewController.h */,
+				01A498C41615224B00950E4C /* MenuViewController.m */,
+				01A01E6F161A46D000563EE3 /* MapViewAnnotation.h */,
+				01A01E70161A46D000563EE3 /* MapViewAnnotation.m */,
+				01A01E6B161A44EB00563EE3 /* MapViewController.h */,
+				01A01E6C161A44EB00563EE3 /* MapViewController.m */,
+				01AC4B2016137D0000261834 /* BF2AppDelegate.h */,
+				01AC4B2116137D0000261834 /* BF2AppDelegate.m */,
+				01AC4B2916137D0000261834 /* BurgerFinder2.xcdatamodeld */,
+				01AC4B1816137D0000261834 /* Supporting Files */,
+			);
+			path = BurgerFinder2;
+			sourceTree = "<group>";
+		};
+		01AC4B1816137D0000261834 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				01AC4B1916137D0000261834 /* BurgerFinder2-Info.plist */,
+				01AC4B1A16137D0000261834 /* InfoPlist.strings */,
+				01AC4B1D16137D0000261834 /* main.m */,
+				01AC4B1F16137D0000261834 /* BurgerFinder2-Prefix.pch */,
+				01AC4B2316137D0000261834 /* Default.png */,
+				01AC4B2516137D0000261834 /* Default@2x.png */,
+				01AC4B2716137D0000261834 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		01AC4B0A16137D0000261834 /* BurgerFinder2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 01AC4B2E16137D0000261834 /* Build configuration list for PBXNativeTarget "BurgerFinder2" */;
+			buildPhases = (
+				01AC4B0716137D0000261834 /* Sources */,
+				01AC4B0816137D0000261834 /* Frameworks */,
+				01AC4B0916137D0000261834 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BurgerFinder2;
+			productName = BurgerFinder2;
+			productReference = 01AC4B0B16137D0000261834 /* BurgerFinder2.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		01AC4B0216137CFF00261834 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = BF2;
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Steve Astels";
+			};
+			buildConfigurationList = 01AC4B0516137CFF00261834 /* Build configuration list for PBXProject "BurgerFinder2" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 01AC4B0016137CFF00261834;
+			productRefGroup = 01AC4B0C16137D0000261834 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				01AC4B0A16137D0000261834 /* BurgerFinder2 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		01AC4B0916137D0000261834 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01AC4B1C16137D0000261834 /* InfoPlist.strings in Resources */,
+				01AC4B2416137D0000261834 /* Default.png in Resources */,
+				01AC4B2616137D0000261834 /* Default@2x.png in Resources */,
+				01AC4B2816137D0000261834 /* Default-568h@2x.png in Resources */,
+				01AC4B3216137D2F00261834 /* iPhone.storyboard in Resources */,
+				01E5C603161A5B6C009370E2 /* menu_modified.txt in Resources */,
+				0104DBA6161E3FC1007AFB97 /* Icon@2x.png in Resources */,
+				0104DBA9161E3FE4007AFB97 /* Icon.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		01AC4B0716137D0000261834 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01AC4B1E16137D0000261834 /* main.m in Sources */,
+				01AC4B2216137D0000261834 /* BF2AppDelegate.m in Sources */,
+				01AC4B2B16137D0000261834 /* BurgerFinder2.xcdatamodeld in Sources */,
+				01AC4B3516137EBF00261834 /* BurgerTableViewController.m in Sources */,
+				01AC4B381613819800261834 /* BF2DatabaseUtilities.m in Sources */,
+				01AC4B531613840F00261834 /* Burger+Create.m in Sources */,
+				01AC4B561613842700261834 /* Topping+Create.m in Sources */,
+				01A7D57E1613A66000739AEB /* Burger.m in Sources */,
+				01A7D5811613A66000739AEB /* Topping.m in Sources */,
+				01A498C51615224B00950E4C /* MenuViewController.m in Sources */,
+				01A498C91615270300950E4C /* ToppingTableViewController.m in Sources */,
+				01A6A56E1616867C00131C28 /* BF2Model.m in Sources */,
+				01A5D16B16190A6700F31BB5 /* CommonTableViewController.m in Sources */,
+				01A01E6D161A44EB00563EE3 /* MapViewController.m in Sources */,
+				01A01E71161A46D000563EE3 /* MapViewAnnotation.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		01AC4B1A16137D0000261834 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				01AC4B1B16137D0000261834 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		01AC4B2C16137D0000261834 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		01AC4B2D16137D0000261834 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		01AC4B2F16137D0000261834 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BurgerFinder2/BurgerFinder2-Prefix.pch";
+				INFOPLIST_FILE = "BurgerFinder2/BurgerFinder2-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		01AC4B3016137D0000261834 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BurgerFinder2/BurgerFinder2-Prefix.pch";
+				INFOPLIST_FILE = "BurgerFinder2/BurgerFinder2-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		01EDE944161CE904009A6FD7 /* Ad-Hoc */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos6.0]" = "iPhone Distribution: Stephen Astels";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				"PROVISIONING_PROFILE[sdk=iphoneos6.0]" = "E23D2C48-F73C-472E-8FED-8A7B623A0A52";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = "Ad-Hoc";
+		};
+		01EDE945161CE904009A6FD7 /* Ad-Hoc */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BurgerFinder2/BurgerFinder2-Prefix.pch";
+				INFOPLIST_FILE = "BurgerFinder2/BurgerFinder2-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = "Ad-Hoc";
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		01AC4B0516137CFF00261834 /* Build configuration list for PBXProject "BurgerFinder2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01AC4B2C16137D0000261834 /* Debug */,
+				01AC4B2D16137D0000261834 /* Release */,
+				01EDE944161CE904009A6FD7 /* Ad-Hoc */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		01AC4B2E16137D0000261834 /* Build configuration list for PBXNativeTarget "BurgerFinder2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01AC4B2F16137D0000261834 /* Debug */,
+				01AC4B3016137D0000261834 /* Release */,
+				01EDE945161CE904009A6FD7 /* Ad-Hoc */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		01AC4B2916137D0000261834 /* BurgerFinder2.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				01AC4B2A16137D0000261834 /* BurgerFinder2.xcdatamodel */,
+			);
+			currentVersion = 01AC4B2A16137D0000261834 /* BurgerFinder2.xcdatamodel */;
+			path = BurgerFinder2.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 01AC4B0216137CFF00261834 /* Project object */;
+}
